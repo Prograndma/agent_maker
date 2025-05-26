@@ -1,8 +1,8 @@
-smolagents[toolkit]
-transformers
-torch
-torchvision
 accelerate
 bitsandbytes
 requests
+smolagents[toolkit]
+torch
+torchvision
+transformers
 wikipedia-api
