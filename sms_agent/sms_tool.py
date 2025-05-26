@@ -18,6 +18,8 @@ class TextMatt(Tool):
 
     @staticmethod
     def forward(message_to_matt) -> str:
+        original_message = message_to_matt
+        message_to_matt += "\n- This message was sent with\n AGENTIC AI\n *ooooooh* (be very impressed)."
         json_data = {"message": message_to_matt,
                      "number": PHONE_NUMBER,
                      "recipients": [ MATTS_NUMBER ]
