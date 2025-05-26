@@ -39,7 +39,6 @@ class GetFunTopic(Tool):
                   "Lion-Eating Poet in the Stone Den",
                   "List of English words without rhymes",
                   "List of English words containing Q not followed by U",
-                  "\"My postillion has been struck by lightning\"",
                   "Archaeoacoustics",
                   "Buttered cat paradox",
                   "Kardashian Index",
