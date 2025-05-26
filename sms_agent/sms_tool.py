@@ -19,7 +19,7 @@ class TextMatt(Tool):
     @staticmethod
     def forward(message_to_matt) -> str:
         original_message = message_to_matt
-        message_to_matt += "\n\n- This message was sent with\n AGENTIC AI\n *ooooooh* (be very impressed)."
+        message_to_matt += "\n\n- This message was sent with\n  AGENTIC AI"
         json_data = {"message": message_to_matt,
                      "number": PHONE_NUMBER,
                      "recipients": [ MATTS_NUMBER ]
@@ -27,4 +27,4 @@ class TextMatt(Tool):
 
         _ = requests.post(f'{SIGNAL_SERVICE}/v2/send', json=json_data)
 
-        return f"successfully sent {message_to_matt} to Matt!"
+        return f"successfully sent {original_message} to Matt!"
