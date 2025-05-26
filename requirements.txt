@@ -5,3 +5,4 @@ torchvision
 accelerate
 bitsandbytes
 requests
+wikipedia-api
