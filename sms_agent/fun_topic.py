@@ -18,7 +18,6 @@ class GetFunTopic(Tool):
                   "Spite house"
                   "list of tautological place names",
                   "Valeriepieris circle",
-                  "Fanta Orange Soda",
                   "Cheese",
                   "modern Toilet Restaurant",
                   "Neutrality Monument",
