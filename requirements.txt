@@ -1,0 +1,6 @@
+smolagents[toolkit]
+transformers
+torch
+torchvision
+accelerate
+bitsandbytes
