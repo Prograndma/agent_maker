@@ -2,6 +2,8 @@ accelerate
 bitsandbytes
 requests
 smolagents[toolkit]
+smolagents[gradio]
+sqlalchemy
 torch
 torchvision
 transformers
