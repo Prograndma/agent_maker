@@ -1,6 +1,6 @@
 from smolagents import Tool
-from typing import Tuple
 import os
+
 
 
 def big_print(message):
